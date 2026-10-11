@@ -1,0 +1,16 @@
+{
+  "name": "linkdrop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny shared reading list on Node.js and PostgreSQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
