@@ -5,12 +5,13 @@
   "description": "A tiny shared reading list on Node.js and PostgreSQL.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node -r dotenv/config server.js"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
+    "dotenv": "^18.0.8",
     "pg": "^8.13.1"
   }
 }
